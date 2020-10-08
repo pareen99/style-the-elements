@@ -1,0 +1,66 @@
+/*Common Elements*/
+
+*{
+    margin-bottom: 20px;
+}
+a, input, select {
+    display: block
+}
+input{
+    box-sizing: border-box;
+}
+img, 
+video,
+select,
+input{
+    width: 100%;
+}
+
+ul, ol {
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 690px){
+    .flex-container {
+        display: flex;
+        gap: 20px;
+    }
+} 
+
+.flex-container > div {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+
+/*Card*/
+.card{
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0.25);
+}
+
+.card img {
+    margin: 0px;
+}
+
+.card h1, .card select, .card footer {
+padding: 0 10px;
+} 
+
+.card header,
+.card section {
+    border-bottom: 1px solid lightgray;
+}
+.card footer {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.card button {
+    color: white;
+    background: blue;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
