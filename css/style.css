@@ -64,3 +64,111 @@ padding: 0 10px;
     padding: 5px 10px;
     text-transform: uppercase;
 }
+
+/*Anatomy and Navigation*/
+footer {
+    padding-bottom: 500px;
+    background: gray;
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25)
+}
+#main-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    max-width: 300px;
+
+}
+#main-nav a {
+    margin-bottom: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    column-count: 3;
+}
+
+@media screen and (min-width: 690px) {
+    footer ul {
+        column-count: 3;
+    }
+
+}
+#main-nav img {
+    width: auto;
+    height: 50px;
+    margin-bottom: 0;
+}
+
+/*journalism*/
+
+article {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+article > header h1,
+article > header p {
+    margin: 20px 100px ;
+}
+
+address { 
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin: 0 100px;
+}
+
+address img {
+    width: auto;
+    height: 50px;
+}
+
+
+article> header> address p {
+    margin: 0;
+}
+
+article> header> address > * {
+    margin-right: 10px;
+}
+
+figure {
+    margin: 0%;
+}
+
+p > a {
+   display: inline;
+
+}
+
+address a {
+    margin-bottom: 0;
+}
+
+section {
+    padding: 0 100px;
+}
